@@ -25,9 +25,7 @@ A **free** to use, **offline** working, **high quality** **german** **TTS** voic
 [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
 <a href="https://twitter.com/intent/follow?screen_name=ThorstenVoice"><img src="https://img.shields.io/twitter/follow/ThorstenVoice?style=social&logo=twitter" alt="follow on Twitter"></a>
 ![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCjqqTVVBTsxpm0iOhQ1fp9g?style=social)
-
-
-[![Audio comparison page](https://img.shields.io/badge/Project_website-www.Thorsten--Voice.de-92a0c0)](https://thorstenmueller.github.io/deep-learning-german-tts/audio_compare)
+![Project website](https://img.shields.io/badge/Project_website-www.Thorsten--Voice.de-92a0c0)
 
 # Some personal words before using **Thorsten-Voice**
 > I contribute my voice as a person believing in a world where all people are equal. No matter of gender, sexual orientation, religion, skin color and geocoordinates of birth location. A global world where everybody is warmly welcome on any place on this planet and open and free knowledge and education is available to everyone. :earth_africa: (*Thorsten Müller*)
@@ -143,17 +141,21 @@ Soon to come
 # TTS Models
 
 ## Thorsten-21.04-Tacotron2-DCA
-Default vocoder: Fullband-MelGAN
-* [Google Drive Thorsten Vocoder Fullband-MelGAN](https://drive.google.com/drive/folders/1hsfaconm4Yd9wPVyOtrXjWQs4ZAPoouY?usp=sharing)
+This [TTS-model](https://drive.google.com/drive/folders/1m4RuffbvdOmQWnmy_Hmw0cZ_q0hj2o8B?usp=sharing) has been trained on **Thorsten-21.02-neutral** dataset. The recommended trained Fullband-MelGAN Vocoder can be downloaded [here](https://drive.google.com/drive/folders/1hsfaconm4Yd9wPVyOtrXjWQs4ZAPoouY?usp=sharing). 
 
-* [Google Drive Thorsten Taco2 DCA](https://drive.google.com/drive/folders/1m4RuffbvdOmQWnmy_Hmw0cZ_q0hj2o8B?usp=sharing)
-
+Run the model:
 * pip install TTS==0.5.0
 * tts-server --model_name tts_models/de/thorsten/tacotron2-DCA
-## Thorsten-22.05-VITS
-Trained on dataset **Thorsten-22.05-neutral** with Coqui :frog: TTS release 0.5.0
 
+
+## Thorsten-22.05-VITS
+Trained on dataset **Thorsten-22.05-neutral**.
 > TODO
+
+## Thorsten-22.05-Tacotron2-DDC
+Trained on dataset **Thorsten-22.05-neutral**.
+> TODO
+
 
 ## Other models
 ### Silero
