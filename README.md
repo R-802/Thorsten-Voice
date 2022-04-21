@@ -1,42 +1,66 @@
-# Introduction
-Many smart voice assistants like Amazon Alexa, Google Home, Apple Siri and Microsoft Cortana use cloud services to offer their (base) functionality.
+- [Project motivation](#motivation-for-thorsten-voice-project-speaking_head-speech_balloon)
+  
+- [Personal note](#some-personal-words-before-using-thorsten-voice)
 
-As some people have privacy concerns using these services there are some (open source) projects trying to build offline and/or privacy aware alternatives.
+- [**Thorsten** Voice Datasets](#voice-datasets)
+  - [Thorsten-21.02-neutral](#thorsten-21.02-neutral)
+  - [Thorsten-21.06-emotional]()
+  - [Thorsten-22.05-neutral]()
 
-But speech recognition and text synthesis still requires cloud services for providing these in a decent quality.
+- [**Thorsten** TTS-Models]()
+  - [Thorsten-21.04-Tacotron2-DCA]()
+  - [Thorsten-22.05-VITS]()
+  - [Thorsten-22.05-Tacotron2-DDC]()
+  - [Other models]()
+  
+- [Public talks](#public-talks)
 
-# MyCroft AI
-> https://mycroft.ai/
+- [Special Thanks](#thanks-section)
 
-MyCroft is a company developing an opensource voice assistant with a very nice and active community. But the stt/tts parts are still cloud based (eg. google services), even if requests are anonymized by a mycroft proxy in between. But integration with locally hosted services such as deepspeech (stt) or mimic/tacotron (tts) is possible.
 
-# Mozilla
-Mozilla works on these really important aspects for free and open human machine voice interaction.
+# Motivation for Thorsten-Voice project :speaking_head: :speech_balloon:
+A **free** to use, **offline** working, **high quality** **german** **TTS** voice should be available for every project without any license struggling.
 
-## STT - speech to text
-> https://commonvoice.mozilla.org/
 
-"STT" needs lots of audio training data by many speakers (women/men/kids) of all ages, dialects and in various audio quality levels. So any voice contribution for common voice project is highly welcome.
+[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
+<a href="https://twitter.com/intent/follow?screen_name=ThorstenVoice"><img src="https://img.shields.io/twitter/follow/ThorstenVoice?style=social&logo=twitter" alt="follow on Twitter"></a>
+![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCjqqTVVBTsxpm0iOhQ1fp9g?style=social)
 
-## TTS - text to speech
-> https://github.com/mozilla/tts
 
-"TTS" needs lots of clean recordings by one speaker to train a model. Mozilla is developing a software stack for proper model training based on tacotron2 papers.
+[![Audio comparison page](https://img.shields.io/badge/Project_website-www.Thorsten--Voice.de-92a0c0)](https://thorstenmueller.github.io/deep-learning-german-tts/audio_compare)
 
-# And?!
-I want to make the most personal contribution i can give and contribute my personal voice (**german**) for TTS training to the community for free usage.
+# Some personal words before using **Thorsten-Voice**
+> I contribute my voice as a person believing in a world where all people are equal. No matter of gender, sexual orientation, religion, skin color and geocoordinates of birth location. A global world where everybody is warmly welcome on any place on this planet and open and free knowledge and education is available to everyone. :earth_africa: (*Thorsten Müller*)
 
-## Please read some personal words before downloading the dataset
-I contribute my voice as a person believing in a world where all people are equal. No matter of gender, sexual orientation, religion, skin color and geocoordinates of birth location. A global world where everybody is warmly welcome on any place on this planet and open and free knowledge and education is available to everyone.
+Please keep in mind, that **i am no professional voice talent**. I'm just a normal guy sharing his voice with the world.
 
-So hopefully my voice is used in this manner to make this world a better place for all of us :-).
+# Voice-Datasets
+Voice datasets are listed on Zenodo:
+| Dataset         | DOI Link                                                                                                            |
+| --------------- | ------- |
+| Thorsten-21.02-neutral | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525342.svg)](https://doi.org/10.5281/zenodo.5525342) |
+| Thorsten-21.06-emotional | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525023.svg)](https://doi.org/10.5281/zenodo.5525023) |
+| Thorsten-21.05-neutral | soon to come |
 
-**tl;dr** Please don't use for evil!
+## Thorsten-21.02-neutral
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525342.svg)](https://doi.org/10.5281/zenodo.5525342)
 
-# Dataset "thorsten"
-## Samples of my voice
-To get an impression what my voice sounds to decide if it fits to your project i published some sample recordings, so no need to download complete dataset first.
-
+```
+ @dataset{muller_thorsten_2021_5525342,
+   author       = {Müller, Thorsten and
+                    Kreutz, Dominik},
+    title        = {Thorsten - Open German Voice (Neutral) Dataset},
+    month        = feb,
+    year         = 2021,
+    note         = {{Please use it to make the world a better place for 
+                    whole humankind.}},
+    publisher    = {Zenodo},
+    version      = {3.0},
+    doi          = {10.5281/zenodo.5525342},
+    url          = {https://doi.org/10.5281/zenodo.5525342}
+  }
+```
+### Samples
 * [Das Teilen eines Benutzerkontos ist strengstens untersagt.](./samples/original_recording/recorded_sample_01.wav )
 * [Der Prophet spricht stets in Gleichnissen.](./samples/original_recording/recorded_sample_02.wav )
 * [Bitte schmeißt euren Müll nicht einfach in die Walachei.](./samples/original_recording/recorded_sample_03.wav )
@@ -45,83 +69,140 @@ To get an impression what my voice sounds to decide if it fits to your project i
 * [Jede gute Küchenwaage hat eine Tara-Funktion.](./samples/original_recording/recorded_sample_06.wav )
 * [Jeden Gedanken kannst du hier loswerden.](./samples/original_recording/recorded_sample_07.wav )
 
+### Dataset summary
+* Recorded by Thorsten Müller
+* Optimized by Dominik Kreutz
+* LJSpeech file and directory structure
+* 22.668 recorded phrases (*wav files*)
+* More than 23 hours of pure audio
+* Samplerate 22.050Hz
+* Mono
+* Normalized to -24dB
+* Phrase length (min/avg/max): 2 / 52 / 180 chars
+* No silence at beginning/ending
+* Avg spoken chars per second: 14
+* Sentences with question mark: 2.780
+* Sentences with exclamation mark: 1.840
 
-## Dataset information
+### Dataset evolution
+As described in the PDF document ([evolution of thorsten dataset](./EvolutionOfThorstenDataset.pdf)) this dataset consists of three recording phases.
 
-* ljspeech-1.1 structure
-* 22.668 recorded phrases (wav files)
-* more than 23 hours of pure audio
-* samplerate 22.050Hz
-* mono
-* normalized to -24dB
-* phrase length (min/avg/max): 2 / 52 / 180 chars
-* no silence at beginning/ending
-* avg spoken chars per second: 14
-* sentences with question mark: 2.780
-* sentences with exclamation mark: 1.840
+* **Phase 1**: Recorded with a cheap usb microphone (*low quality*)
+* **Phase 2**: Recorded with a good microphone (*good quality*)
+* **Phase 3**: Recorded with same good microphone but longer phrases (> 100 chars) (*good quality*)
 
-
-![text length vs. mean audio duration](./img/thorsten-de---datasetAnalysis1.png)
-![text length vs. median audio duration](./img/thorsten-de---datasetAnalysis2.png)
-![text length vs. STD](./img/thorsten-de---datasetAnalysis3.png)
-![text length vs. number instances](./img/thorsten-de---datasetAnalysis4.png)
-![signal noise ratio](./img/thorsten-de---datasetAnalysis5.png)
-![bokeh](./img/thorsten-de---datasetAnalysis6.png)
-
-> Interested in evolution of this dataset? See following pdf document ([evolution of thorsten dataset](./EvolutionOfThorstenDataset.pdf) )
-
-## Download information
-> Download size: 2,7GB
-
-Version | Description | Date | Link
------------- | ------------- | ------------- | -------------
-thorsten-de-v01 | Initial version | 2020-06-28 | [Google Drive Download v01](https://drive.google.com/file/d/1yKJM1LAOQpRVojKunD9r8WN_p5KzBxjc/view?usp=sharing)
-thorsten-de-v02 | normalized to -24dB and split metadata.csv into shuffeled metadata_train.csv and metadata_val.csv | 2020-08-22 | [Google Drive Download v02](https://drive.google.com/file/d/1mGWfG0s2V2TEg-AI2m85tze1m4pyeM7b/view?usp=sharing)
+If you want to use a dataset subset you can see which files belong to which recording phase in [recording quality](./RecordingQuality.csv) csv file.
 
 
-# Trained tacotron2 model "thorsten"
-If you trained a model on "thorsten" dataset please file an issue with some information on it. Sharing a trained model is highly appreciated. 
+## Thorsten-21.06-emotional
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525023.svg)](https://doi.org/10.5281/zenodo.5525023)
 
-## Trained models (TODO)
+```
+@dataset{muller_thorsten_2021_5525023,
+  author       = {Müller, Thorsten and
+                  Kreutz, Dominik},
+  title        = {Thorsten - Open German Voice (Emotional) Dataset},
+  month        = jun,
+  year         = 2021,
+  note         = {{Please use it to make the world a better place for 
+                   whole humankind.}},
+  publisher    = {Zenodo},
+  version      = {2.0},
+  doi          = {10.5281/zenodo.5525023},
+  url          = {https://doi.org/10.5281/zenodo.5525023}
+}
+```
 
-Folder | Date | Link | Description
------------- | ------------- | ------------- | -------------
-thorsten-taco2-ddc-v0.1 | to do | to do | to do
+All emotional recordings where recorded by myself and i tried to feel and pronounce that emotion even if the phrase context does not match that emotion. Example: I pronounced the sleepy recordings in the tone i have shortly before falling asleep.
+
+### Samples
+Listen to the phrase "**Mist, wieder nichts geschafft.**" in following emotions.
+
+* [Neutral](./samples/emotional_recording/neutral.wav)
+* [Disgusted](./samples/emotional_recording/disgusted.wav)
+* [Angry](./samples/emotional_recording/angry.wav)
+* [Amused](./samples/emotional_recording/amused.wav)
+* [Surprised](./samples/emotional_recording/surprised.wav)
+* [Sleepy](./samples/emotional_recording/sleepy.wav)
+* [Drunk](./samples/emotional_recording/drunk.wav)
+* [Whispering](./samples/emotional_recording/whisper.wav)
+### Dataset summary
+* Recorded by Thorsten Müller
+* Optimized by Dominik Kreutz
+* 300 sentences * 8 emotions = 2.400 recordings
+* Mono
+* Samplerate 22.050Hz
+* Normalized to -24dB
+* No silence at beginning/ending
+* Sentence length: 59 - 148 chars
+
+
+## Thorsten-22.05-neutral
+Soon to come
+
+# TTS Models
+
+## Thorsten-21.04-Tacotron2-DCA
+Default vocoder: Fullband-MelGAN
+* [Google Drive Thorsten Vocoder Fullband-MelGAN](https://drive.google.com/drive/folders/1hsfaconm4Yd9wPVyOtrXjWQs4ZAPoouY?usp=sharing)
+
+* [Google Drive Thorsten Taco2 DCA](https://drive.google.com/drive/folders/1m4RuffbvdOmQWnmy_Hmw0cZ_q0hj2o8B?usp=sharing)
+
+* pip install TTS==0.5.0
+* tts-server --model_name tts_models/de/thorsten/tacotron2-DCA
+## Thorsten-22.05-VITS
+Trained on dataset **Thorsten-22.05-neutral** with Coqui :frog: TTS release 0.5.0
+
+> TODO
+
+## Other models
+### Silero
+
+You can use a free A-GPL licensed models trained on **Thorsten-21.02-neutral** dataset via the [silero-models](https://github.com/snakers4/silero-models/blob/master/models.yml) project.
+
+* [Thorsten 16kHz](https://drive.google.com/drive/folders/1tR6w4kgRS2JJ1TWZhwoFuU04Xkgo6YAs?usp=sharing)
+* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/snakers4/silero-models/blob/master/examples_tts.ipynb)
+
+### ZDisket
+[ZDisket](https://github.com/ZDisket/TensorVox) made a tool called TensorVox for setting up an TTS environment on Windows and included a german TTS model trained by [monatis](https://github.com/monatis/german-tts). Thanks for sharing that :thumbsup:. See it in action on [Youtube](https://youtu.be/tY6_xZnkv-A).
+
+# Public talks
+I really want to bring the topic "**Open Voice For An Open Future**" to a bigger public attention.
+
+* I've been part of a Linux User Group podcast about Mycroft AI and talked on my TTS efforts on that in (*May 2021*).
+* I was invited by [Yusuf](https://github.com/monatis/) from Turkish tensorflow community to talk on "How to make machines speak with your own voice". This talk has been streamed live on Youtube and is available [here](https://www.youtube.com/watch?v=m-Uwb-Bg144&t=2303s). If you're interested on the showed slides, feel free to download my presentation [here](https://docs.google.com/presentation/d/1ynnw0ilKV3WwMSJHytrN3GXRiFr8x3r0DUimBm1y0LI/edit?usp=sharing) (*June 2021*)
+)
+* I've been invited as speaker on VoiceLunch language & linguistics on 03.01.2022. [Here are my slides](https://docs.google.com/presentation/d/1Gi6BmYHs7g4ZgdAiIKGBnBwZDCvJOD9DJxQOGlgds1o/edit?usp=sharing) (*January 2022*).
+* In addition i share my thoughts and knowledge on Open Voice on my [Youtube channel](https://www.youtube.com/c/ThorstenMueller).
 
 # Feel free to file an issue if you ...
-* have improvements on dataset
-* use my TTS voice in your project(s)
-* want to share your trained "thorsten" model
-* get to know about any abuse usage of my voice
+* Use my TTS voice in your project(s)
+* Want to share your trained "Thorsten" model
+* Get to know about any abuse usage of my voice
 
-# Special thanks
-I want to thank all open source communities for providing great projects.
+# Thanks section
+## Cool projects
+* https://commonvoice.mozilla.org/
+* https://coqui.ai/
+* https://mycroft.ai/
+* https://github.com/rhasspy/
 
-Just to name some nice guys who joined me on this tts-roadtrip:
+## Cool people
+* [El-Tocino](https://github.com/el-tocino/)
+* [Eren Gölge](https://github.com/erogol/)
+* [Gras64](https://github.com/gras64/)
+* [Kris Gesling](https://github.com/krisgesling/)
+* [Nmstoker](https://github.com/nmstoker)
+* [Othiele](https://discourse.mozilla.org/u/othiele/summary)
+* [Repodiac](https://github.com/repodiac)
+* [SanjaESC](https://github.com/SanjaESC)
+* [Synesthesiam](https://github.com/synesthesiam/)
 
-* eltocino (https://github.com/el-tocino/)
-* erogol (https://github.com/erogol/)
-* gras64 (https://github.com/gras64/)
-* krisgesling (https://github.com/krisgesling/)
-* nmstoker (https://github.com/nmstoker)
-* othiele (https://discourse.mozilla.org/u/othiele/summary)
-* repodiac (https://github.com/repodiac)
+## Even more special people
+Additionally, a really nice thanks for my dear colleague, Sebastian Kraus, for supporting me with audio recording equipment and for being the creative mastermind behind the logo design.
 
-And last but not least i want to say a huge thank you to a special guy who supported me on this journey right from the beginning. Not just with nice words, but with his time, audio optimization knowhow and finally his gpu computing power. 
+And last but not least i want to say a **huge, huge thank you** to a special guy who supported me on this journey as a partner right from the beginning. Not just with nice words, but with his time, audio optimization knowhow and finally GPU power. 
 
-Without his amazing support this dataset (in it's current way) would not exists.
+**Thank you so much, dear **Dominik** ([@domcross](https://github.com/domcross/)) for being my partner on this journey.**
 
-Thank you Dominik (@domcross / https://github.com/domcross/)
-
-# Links
-* https://discourse.mozilla.org/t/contributing-my-german-voice-for-tts/48150
-* https://community.mycroft.ai/
-* https://github.com/MycroftAI/mimic-recording-studio
-* https://voice.mozilla.org/
-* https://github.com/mozilla/TTS
-(https://github.com/repodiac/tit-for-tat/tree/master/thorsten-TTS)
-* https://raw.githubusercontent.com/mozilla/voice-web/master/server/data/de/sentence-collector.txt
-
-We'll hear us in future :-)
-
-Thorsten
+Thorsten (*Twitter: @ThorstenVoice*)
