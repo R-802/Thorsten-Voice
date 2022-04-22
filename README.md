@@ -118,7 +118,7 @@ All emotional recordings where recorded by myself and i tried to feel and pronou
 Listen to the phrase "**Mist, wieder nichts geschafft.**" in following emotions.
 
 * :slightly_smiling_face: [Neutral](./samples/emotional_recording/neutral.wav)
-* :nauseated_face: Disgusted](./samples/emotional_recording/disgusted.wav)
+* :nauseated_face: [Disgusted](./samples/emotional_recording/disgusted.wav)
 * :angry: [Angry](./samples/emotional_recording/angry.wav)
 * :grinning: [Amused](./samples/emotional_recording/amused.wav)
 * :astonished: [Surprised](./samples/emotional_recording/surprised.wav)
@@ -159,6 +159,13 @@ Trained on dataset **Thorsten-22.05-neutral**.
 
 ## TTS audio samples
 TODO
+
+| **Text**                                                                       | **Fullband-MelGAN**    | **VITS**               | **Tacotron2-DDC (22.05)** |
+|--------------------------------------------------------------------------------|------------------------|------------------------|---------------------------|
+| Die übernächste Generation von Gamern sitzt auch stundenlang vor Bildschirmen. | [Sample (Dataset 21.02)](./samples/tts_compare/21.04-DCA-die%20%C3%BCbern%C3%A4chste%20generation.wav) | [Sample (_Dataset 22.05_)](./samples/tts_compare/22.05-VITS-die%20%C3%BCbern%C3%A4chste%20generation%20von.wav) | [Sample (Dataset 22.05)](./samples/tts_compare/22.05-DDC-die%20%C3%BCbern%C3%A4chste%20generation%20von.wav)    |
+| Ich weiß, es ist vorbei.                                                       | Sample (Dataset 21.02) | Sample (Dataset 22.05) | Sample (Dataset 22.05)    |
+| Insgesamt gab es bisher 563 333 Infektionen und 9226 Todesfälle.               | Sample (Dataset 21.02) | Sample (_Dataset 22.05_) | Sample (Dataset 22.05)    |
+| Und irgendwann Schwupps, ist das Ende da.                                      | Sample (Dataset 21.02) | Sample (Dataset 22.05) | Sample (Dataset 22.05)    |
 
 ## Other models
 ### Silero
