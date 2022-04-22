@@ -11,6 +11,7 @@
   - [Thorsten-21.04-Tacotron2-DCA](#thorsten-2104-tacotron2-dca)
   - [Thorsten-22.05-VITS](#thorsten-2205-vits)
   - [Thorsten-22.05-Tacotron2-DDC](#thorsten-2205-tacotron2-ddc)
+  - [Audio samples](#tts-audio-samples)
   - [Other models](#other-models)
   
 - [Public talks](#public-talks)
@@ -116,14 +117,14 @@ All emotional recordings where recorded by myself and i tried to feel and pronou
 ### Samples
 Listen to the phrase "**Mist, wieder nichts geschafft.**" in following emotions.
 
-* [Neutral](./samples/emotional_recording/neutral.wav)
-* [Disgusted](./samples/emotional_recording/disgusted.wav)
-* [Angry](./samples/emotional_recording/angry.wav)
-* [Amused](./samples/emotional_recording/amused.wav)
-* [Surprised](./samples/emotional_recording/surprised.wav)
-* [Sleepy](./samples/emotional_recording/sleepy.wav)
-* [Drunk](./samples/emotional_recording/drunk.wav)
-* [Whispering](./samples/emotional_recording/whisper.wav)
+* :slightly_smiling_face: [Neutral](./samples/emotional_recording/neutral.wav)
+* :nauseated_face: Disgusted](./samples/emotional_recording/disgusted.wav)
+* :angry: [Angry](./samples/emotional_recording/angry.wav)
+* :grinning: [Amused](./samples/emotional_recording/amused.wav)
+* :astonished: [Surprised](./samples/emotional_recording/surprised.wav)
+* :pensive: [Sleepy](./samples/emotional_recording/sleepy.wav)
+* :dizzy_face: [Drunk](./samples/emotional_recording/drunk.wav)
+* 🤫 [Whispering](./samples/emotional_recording/whisper.wav)
 ### Dataset summary
 * Recorded by Thorsten Müller
 * Optimized by Dominik Kreutz
@@ -141,7 +142,7 @@ Soon to come
 # TTS Models
 
 ## Thorsten-21.04-Tacotron2-DCA
-This [TTS-model](https://drive.google.com/drive/folders/1m4RuffbvdOmQWnmy_Hmw0cZ_q0hj2o8B?usp=sharing) has been trained on **Thorsten-21.02-neutral** dataset. The recommended trained Fullband-MelGAN Vocoder can be downloaded [here](https://drive.google.com/drive/folders/1hsfaconm4Yd9wPVyOtrXjWQs4ZAPoouY?usp=sharing). 
+This [TTS-model](https://drive.google.com/drive/folders/1m4RuffbvdOmQWnmy_Hmw0cZ_q0hj2o8B?usp=sharing) has been trained on [**Thorsten-21.02-neutral**](#thorsten-2102-neutral) dataset. The recommended trained Fullband-MelGAN Vocoder can be downloaded [here](https://drive.google.com/drive/folders/1hsfaconm4Yd9wPVyOtrXjWQs4ZAPoouY?usp=sharing). 
 
 Run the model:
 * pip install TTS==0.5.0
@@ -156,6 +157,8 @@ Trained on dataset **Thorsten-22.05-neutral**.
 Trained on dataset **Thorsten-22.05-neutral**.
 > TODO
 
+## TTS audio samples
+TODO
 
 ## Other models
 ### Silero
