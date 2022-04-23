@@ -59,14 +59,8 @@ Voice datasets are listed on Zenodo:
   url          = {https://doi.org/10.5281/zenodo.5525342}
 }
 ```
-### Samples
-* [Das Teilen eines Benutzerkontos ist strengstens untersagt.](./samples/original_recording/recorded_sample_01.wav )
-* [Der Prophet spricht stets in Gleichnissen.](./samples/original_recording/recorded_sample_02.wav )
-* [Bitte schmeißt euren Müll nicht einfach in die Walachei.](./samples/original_recording/recorded_sample_03.wav )
-* [So etwas würde mir nie in den Sinn kommen.](./samples/original_recording/recorded_sample_04.wav )
-* [Sie klettert auf einen Stein und nimmt eine Denkerpose ein.](./samples/original_recording/recorded_sample_05.wav )
-* [Jede gute Küchenwaage hat eine Tara-Funktion.](./samples/original_recording/recorded_sample_06.wav )
-* [Jeden Gedanken kannst du hier loswerden.](./samples/original_recording/recorded_sample_07.wav )
+
+> Listen to some audio recordings from this dataset [here](https://drive.google.com/drive/folders/1KVjGXG2ij002XRHb3fgFK4j0OEq1FsWm?usp=sharing).
 
 ### Dataset summary
 * Recorded by Thorsten Müller
@@ -138,6 +132,7 @@ Listen to the phrase "**Mist, wieder nichts geschafft.**" in following emotions.
 
 
 ## Thorsten-22.05-neutral
+> Listen to some audio recordings from this dataset [here](https://drive.google.com/drive/folders/1dxoSo8Ktmh-5E0rSVqkq_Jm1r4sFnwJM?usp=sharing).
 Soon to come
 
 # TTS Models
