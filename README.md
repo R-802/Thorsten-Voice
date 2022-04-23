@@ -60,7 +60,7 @@ Voice datasets are listed on Zenodo:
 }
 ```
 
-> :speaking_head: **Listen to some audio recordings from this dataset [here]**(https://drive.google.com/drive/folders/1KVjGXG2ij002XRHb3fgFK4j0OEq1FsWm?usp=sharing).
+> :speaking_head: **Listen to some audio recordings from this dataset [here](https://drive.google.com/drive/folders/1KVjGXG2ij002XRHb3fgFK4j0OEq1FsWm?usp=sharing).**
 
 ### Dataset summary
 * Recorded by Thorsten Müller
