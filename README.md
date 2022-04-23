@@ -60,7 +60,7 @@ Voice datasets are listed on Zenodo:
 }
 ```
 
-> :speaking_head: Listen to some audio recordings from this dataset [here](https://drive.google.com/drive/folders/1KVjGXG2ij002XRHb3fgFK4j0OEq1FsWm?usp=sharing){:target="_blank"}.
+> :speaking_head: Listen to some audio recordings from this dataset [here](https://drive.google.com/drive/folders/1KVjGXG2ij002XRHb3fgFK4j0OEq1FsWm?usp=sharing).
 
 ### Dataset summary
 * Recorded by Thorsten Müller
@@ -132,14 +132,14 @@ Listen to the phrase "**Mist, wieder nichts geschafft.**" in following emotions.
 
 
 ## Thorsten-22.05-neutral
-> :speaking_head: Listen to some audio recordings from this dataset [here](https://drive.google.com/drive/folders/1dxoSo8Ktmh-5E0rSVqkq_Jm1r4sFnwJM?usp=sharing){:target="_blank"}.
+> :speaking_head: Listen to some audio recordings from this dataset [here](https://drive.google.com/drive/folders/1dxoSo8Ktmh-5E0rSVqkq_Jm1r4sFnwJM?usp=sharing).
 
 Soon to come
 
 # TTS Models
 
 ## Thorsten-21.04-Tacotron2-DCA
-This [TTS-model](https://drive.google.com/drive/folders/1m4RuffbvdOmQWnmy_Hmw0cZ_q0hj2o8B?usp=sharing) has been trained on [**Thorsten-21.02-neutral**](#thorsten-2102-neutral) dataset. The recommended trained Fullband-MelGAN Vocoder can be downloaded [here](https://drive.google.com/drive/folders/1hsfaconm4Yd9wPVyOtrXjWQs4ZAPoouY?usp=sharing){:target="_blank"}.
+This [TTS-model](https://drive.google.com/drive/folders/1m4RuffbvdOmQWnmy_Hmw0cZ_q0hj2o8B?usp=sharing) has been trained on [**Thorsten-21.02-neutral**](#thorsten-2102-neutral) dataset. The recommended trained Fullband-MelGAN Vocoder can be downloaded [here](https://drive.google.com/drive/folders/1hsfaconm4Yd9wPVyOtrXjWQs4ZAPoouY?usp=sharing).
 
 Run the model:
 * pip install TTS==0.5.0
@@ -152,7 +152,7 @@ Trained on dataset **Thorsten-22.05-neutral**.
 
 ## Thorsten-22.05-Tacotron2-DDC
 Trained on dataset [**Thorsten-22.05-neutral**](#thorsten-2205-neutral).
-> :speaking_head: Listen to synthesized samples [here](https://drive.google.com/drive/folders/1cZlLYkLWKtF0cZQ74Pef8fJ8fiG1G7du?usp=sharing){:target="_blank"}.
+> :speaking_head: Listen to synthesized samples [here](https://drive.google.com/drive/folders/1cZlLYkLWKtF0cZQ74Pef8fJ8fiG1G7du?usp=sharing).
 
 Soon to come.
 
@@ -162,8 +162,8 @@ Soon to come.
 
 You can use a free A-GPL licensed models trained on **Thorsten-21.02-neutral** dataset via the [silero-models](https://github.com/snakers4/silero-models/blob/master/models.yml) project.
 
-* [Thorsten 16kHz](https://drive.google.com/drive/folders/1tR6w4kgRS2JJ1TWZhwoFuU04Xkgo6YAs?usp=sharing){:target="_blank"}
-* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/snakers4/silero-models/blob/master/examples_tts.ipynb){:target="_blank"}
+* [Thorsten 16kHz](https://drive.google.com/drive/folders/1tR6w4kgRS2JJ1TWZhwoFuU04Xkgo6YAs?usp=sharing)
+* [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/snakers4/silero-models/blob/master/examples_tts.ipynb)
 
 ### ZDisket
 [ZDisket](https://github.com/ZDisket/TensorVox) made a tool called TensorVox for setting up an TTS environment on Windows and included a german TTS model trained by [monatis](https://github.com/monatis/german-tts). Thanks for sharing that :thumbsup:. See it in action on [Youtube](https://youtu.be/tY6_xZnkv-A).
@@ -172,9 +172,9 @@ You can use a free A-GPL licensed models trained on **Thorsten-21.02-neutral** d
 I really want to bring the topic "**Open Voice For An Open Future**" to a bigger public attention.
 
 * I've been part of a Linux User Group podcast about Mycroft AI and talked on my TTS efforts on that in (*May 2021*).
-* I was invited by [Yusuf](https://github.com/monatis/) from Turkish tensorflow community to talk on "How to make machines speak with your own voice". This talk has been streamed live on Youtube and is available [here](https://www.youtube.com/watch?v=m-Uwb-Bg144&t=2303s). If you're interested on the showed slides, feel free to download my presentation [here](https://docs.google.com/presentation/d/1ynnw0ilKV3WwMSJHytrN3GXRiFr8x3r0DUimBm1y0LI/edit?usp=sharing){:target="_blank"} (*June 2021*)
+* I was invited by [Yusuf](https://github.com/monatis/) from Turkish tensorflow community to talk on "How to make machines speak with your own voice". This talk has been streamed live on Youtube and is available [here](https://www.youtube.com/watch?v=m-Uwb-Bg144&t=2303s). If you're interested on the showed slides, feel free to download my presentation [here](https://docs.google.com/presentation/d/1ynnw0ilKV3WwMSJHytrN3GXRiFr8x3r0DUimBm1y0LI/edit?usp=sharing) (*June 2021*)
 )
-* I've been invited as speaker on VoiceLunch language & linguistics on 03.01.2022. [Here are my slides](https://docs.google.com/presentation/d/1Gi6BmYHs7g4ZgdAiIKGBnBwZDCvJOD9DJxQOGlgds1o/edit?usp=sharing){:target="_blank"} (*January 2022*).
+* I've been invited as speaker on VoiceLunch language & linguistics on 03.01.2022. [Here are my slides](https://docs.google.com/presentation/d/1Gi6BmYHs7g4ZgdAiIKGBnBwZDCvJOD9DJxQOGlgds1o/edit?usp=sharing) (*January 2022*).
 * In addition i share my thoughts and knowledge on Open Voice on my [Youtube channel](https://www.youtube.com/c/ThorstenMueller).
 
 # Feel free to file an issue if you ...
