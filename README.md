@@ -60,7 +60,7 @@ Voice datasets are listed on Zenodo:
 }
 ```
 
-> Listen to some audio recordings from this dataset [here](https://drive.google.com/drive/folders/1KVjGXG2ij002XRHb3fgFK4j0OEq1FsWm?usp=sharing).
+> :speaking_head: Listen to some audio recordings from this dataset [here](https://drive.google.com/drive/folders/1KVjGXG2ij002XRHb3fgFK4j0OEq1FsWm?usp=sharing).
 
 ### Dataset summary
 * Recorded by Thorsten Müller
@@ -132,7 +132,7 @@ Listen to the phrase "**Mist, wieder nichts geschafft.**" in following emotions.
 
 
 ## Thorsten-22.05-neutral
-> Listen to some audio recordings from this dataset [here](https://drive.google.com/drive/folders/1dxoSo8Ktmh-5E0rSVqkq_Jm1r4sFnwJM?usp=sharing).
+> :speaking_head: Listen to some audio recordings from this dataset [here](https://drive.google.com/drive/folders/1dxoSo8Ktmh-5E0rSVqkq_Jm1r4sFnwJM?usp=sharing).
 Soon to come
 
 # TTS Models
@@ -150,18 +150,11 @@ Trained on dataset **Thorsten-22.05-neutral**.
 > TODO
 
 ## Thorsten-22.05-Tacotron2-DDC
-Trained on dataset **Thorsten-22.05-neutral**.
-> TODO
+Trained on dataset [**Thorsten-22.05-neutral**](#thorsten-2205-neutral).
+> :speaking_head: Listen to synthesized samples [here](https://drive.google.com/drive/folders/1cZlLYkLWKtF0cZQ74Pef8fJ8fiG1G7du?usp=sharing).
 
-## TTS audio samples
-TODO
+Soon to come.
 
-| **Text**                                                                       | **Fullband-MelGAN**    | **VITS**               | **Tacotron2-DDC (22.05)** |
-|--------------------------------------------------------------------------------|------------------------|------------------------|---------------------------|
-| Die übernächste Generation von Gamern sitzt auch stundenlang vor Bildschirmen. | [Sample (Dataset 21.02)](./samples/tts_compare/21.04-DCA-die%20%C3%BCbern%C3%A4chste%20generation.wav) | [Sample (_Dataset 22.05_)](./samples/tts_compare/22.05-VITS-die%20%C3%BCbern%C3%A4chste%20generation%20von.wav) | [Sample (Dataset 22.05)](./samples/tts_compare/22.05-DDC-die%20%C3%BCbern%C3%A4chste%20generation%20von.wav)    |
-| Ich weiß, es ist vorbei.                                                       | Sample (Dataset 21.02) | Sample (Dataset 22.05) | Sample (Dataset 22.05)    |
-| Insgesamt gab es bisher 563 333 Infektionen und 9226 Todesfälle.               | Sample (Dataset 21.02) | Sample (_Dataset 22.05_) | Sample (Dataset 22.05)    |
-| Und irgendwann Schwupps, ist das Ende da.                                      | Sample (Dataset 21.02) | Sample (Dataset 22.05) | Sample (Dataset 22.05)    |
 
 ## Other models
 ### Silero
