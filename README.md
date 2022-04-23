@@ -45,19 +45,19 @@ Voice datasets are listed on Zenodo:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5525342.svg)](https://doi.org/10.5281/zenodo.5525342)
 
 ```
- @dataset{muller_thorsten_2021_5525342,
-   author       = {Müller, Thorsten and
-                    Kreutz, Dominik},
-    title        = {Thorsten - Open German Voice (Neutral) Dataset},
-    month        = feb,
-    year         = 2021,
-    note         = {{Please use it to make the world a better place for 
-                    whole humankind.}},
-    publisher    = {Zenodo},
-    version      = {3.0},
-    doi          = {10.5281/zenodo.5525342},
-    url          = {https://doi.org/10.5281/zenodo.5525342}
-  }
+@dataset{muller_thorsten_2021_5525342,
+  author       = {Müller, Thorsten and
+                  Kreutz, Dominik},
+  title        = {Thorsten-Voice - "Thorsten-21.02-neutral" Dataset},
+  month        = feb,
+  year         = 2021,
+  note         = {{Please use it to make the world a better place for 
+                   whole humankind.}},
+  publisher    = {Zenodo},
+  version      = {3.0},
+  doi          = {10.5281/zenodo.5525342},
+  url          = {https://doi.org/10.5281/zenodo.5525342}
+}
 ```
 ### Samples
 * [Das Teilen eines Benutzerkontos ist strengstens untersagt.](./samples/original_recording/recorded_sample_01.wav )
@@ -100,7 +100,8 @@ If you want to use a dataset subset you can see which files belong to which reco
 @dataset{muller_thorsten_2021_5525023,
   author       = {Müller, Thorsten and
                   Kreutz, Dominik},
-  title        = {Thorsten - Open German Voice (Emotional) Dataset},
+  title        = {{Thorsten-Voice - "Thorsten-21.06-emotional" 
+                   Dataset}},
   month        = jun,
   year         = 2021,
   note         = {{Please use it to make the world a better place for 
