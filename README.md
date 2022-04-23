@@ -132,7 +132,7 @@ Listen to the phrase "**Mist, wieder nichts geschafft.**" in following emotions.
 
 
 ## Thorsten-22.05-neutral
-> :speaking_head: **Listen to some audio recordings from this dataset [here](https://drive.google.com/drive/folders/1dxoSo8Ktmh-5E0rSVqkq_Jm1r4sFnwJM?usp=sharing).**
+> :speaking_head: **Listen to some audio recordings from this dataset [here]**(https://drive.google.com/drive/folders/1dxoSo8Ktmh-5E0rSVqkq_Jm1r4sFnwJM?usp=sharing).
 
 Soon to come
 
