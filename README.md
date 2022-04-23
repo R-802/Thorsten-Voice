@@ -60,7 +60,7 @@ Voice datasets are listed on Zenodo:
 }
 ```
 
-> :speaking_head: Listen to some audio recordings from this dataset [here](https://drive.google.com/drive/folders/1KVjGXG2ij002XRHb3fgFK4j0OEq1FsWm?usp=sharing).
+> :speaking_head: **Listen to some audio recordings from this dataset [here]**(https://drive.google.com/drive/folders/1KVjGXG2ij002XRHb3fgFK4j0OEq1FsWm?usp=sharing).
 
 ### Dataset summary
 * Recorded by Thorsten Müller
@@ -132,7 +132,7 @@ Listen to the phrase "**Mist, wieder nichts geschafft.**" in following emotions.
 
 
 ## Thorsten-22.05-neutral
-> :speaking_head: Listen to some audio recordings from this dataset [here](https://drive.google.com/drive/folders/1dxoSo8Ktmh-5E0rSVqkq_Jm1r4sFnwJM?usp=sharing).
+> :speaking_head: **Listen to some audio recordings from this dataset [here](https://drive.google.com/drive/folders/1dxoSo8Ktmh-5E0rSVqkq_Jm1r4sFnwJM?usp=sharing).**
 
 Soon to come
 
@@ -152,7 +152,7 @@ Trained on dataset **Thorsten-22.05-neutral**.
 
 ## Thorsten-22.05-Tacotron2-DDC
 Trained on dataset [**Thorsten-22.05-neutral**](#thorsten-2205-neutral).
-> :speaking_head: Listen to synthesized samples [here](https://drive.google.com/drive/folders/1cZlLYkLWKtF0cZQ74Pef8fJ8fiG1G7du?usp=sharing).
+> :speaking_head: **Listen to synthesized samples [here](https://drive.google.com/drive/folders/1cZlLYkLWKtF0cZQ74Pef8fJ8fiG1G7du?usp=sharing).**
 
 Soon to come.
 
